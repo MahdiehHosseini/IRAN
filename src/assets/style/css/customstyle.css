@@ -1,0 +1,238 @@
+    body {
+        background: url(./../../images/main-bg.png);
+    }
+    
+    .header-bg {
+        background: url(./../../images/home\ page.jpg) border-box no-repeat;
+        background-size: cover;
+        height: 60em;
+    }
+    
+    .header-paragraph {
+        border-bottom: solid white 3.5px;
+    }
+    
+    .header-title {
+        border-top: solid white 3.5px;
+    }
+    
+    .list-group {
+        border: solid white 3.5px;
+    }
+    
+    .list-item1 {
+        border-bottom: solid white 3.5px;
+    }
+    
+    .main-title {
+        text-shadow: 3px 3px #cacaca;
+    }
+    
+    .post-bg-damavand {
+        background: url(./../../images/damavand.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-hafez-tomb {
+        background: url(./../../images/Hafez\ Tomb.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-azadi {
+        background: url(./../../images/azadi.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-takht-jamshid {
+        background: url(./../../images/takht\ jamshid.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-bam-citadel {
+        background: url(./../../images/arge\ bam.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-latoon-falls {
+        background: url(./../../images/latoon\ falls.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-imam-reza {
+        background: url(./../../images/imam\ reza.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-hazrat-masoumeh {
+        background: url(./../../images/hazrat\ masoumeh.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-burnt-city {
+        background: url(./../../images/burnt\ city.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-bandar-anzali {
+        background: url(./../../images/talab\ anazali.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-bistoon {
+        background: url(./../../images/bistoon.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-babak-castle {
+        background: url(./../../images/babak\ castle.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-shushtar-water-mills {
+        background: url(./../../images/shushtar\ water\ mills.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-maharloo-lake {
+        background: url(./../../images/maharloo\ lake.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-nasir-al-molk-mosque {
+        background: url(./../../images/pink\ mosque.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-eram-garden {
+        background: url(./../../images/eram\ garden.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-naqsh-jahan {
+        background: url(./../../images/naqsh\ jahan.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .post-bg-khajoo-bridge {
+        background: url(./../../images/khajoo\ bridge.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .txt-404 {
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    }
+    
+    svg path {
+        transition: 200ms;
+        transition-timing-function: ease-in-out;
+        -webkit-transition: 200ms;
+        -webkit-transition-timing-function: ease-in-out;
+        stroke: #9c9c9c;
+        stroke-width: 1px;
+        stroke-linejoin: round;
+    }
+    
+    svg path:hover {
+        fill: #646464;
+    }
+    
+    @media (min-width:768px) {
+        .list-item1 {
+            border: 0;
+            border-right: solid white 3.5px;
+        }
+        .card-md {
+            width: 27rem !important;
+        }
+        .post-bg {
+            height: 27rem;
+        }
+    }
+    
+    @media (min-width:1280px) {
+        .post-bg {
+            height: 30rem;
+        }
+        .main-title-submit {
+            width: 30rem;
+        }
+    }
+    
+    @media (min-width: 1536px) {
+        .main-title-submit {
+            width: 100%;
+        }
+    }
+    
+    .loader-div {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .loader {
+        position: relative;
+        width: 10vw;
+        height: 5vw;
+        padding: 1.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .loader span {
+        position: absolute;
+        height: 0.8vw;
+        width: 0.8vw;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .loader span:nth-child(1) {
+        animation: loading-dotsA 0.5s infinite linear;
+    }
+    
+    .loader span:nth-child(2) {
+        animation: loading-dotsB 0.5s infinite linear;
+    }
+    
+    @keyframes loading-dotsA {
+        0% {
+            transform: none;
+        }
+        25% {
+            transform: translateX(2vw);
+        }
+        50% {
+            transform: none;
+        }
+        75% {
+            transform: translateY(2vw);
+        }
+        100% {
+            transform: none;
+        }
+    }
+    
+    @keyframes loading-dotsB {
+        0% {
+            transform: none;
+        }
+        25% {
+            transform: translateX(-2vw);
+        }
+        50% {
+            transform: none;
+        }
+        75% {
+            transform: translateY(-2vw);
+        }
+        100% {
+            transform: none;
+        }
+    }
