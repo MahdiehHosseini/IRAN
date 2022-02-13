@@ -3,7 +3,7 @@
         <router-link to="/"><a class="text-3xl">IRAN</a></router-link> 
         <ul v-if="activeNav" class="flex md:flex pt-14 md:pt-0 justify-between">
             <router-link to="/Map"><li class="text-xl pr-5">map</li></router-link>
-            <router-link to="/Turism"><li class="text-xl border-l border-slate-300 pl-5">turism</li></router-link>
+            <router-link to="/Touristy"><li class="text-xl border-l border-slate-300 pl-5">touristy</li></router-link>
         </ul>
         <ul class="md:visible hidden md:flex pt-14 md:pt-0 justify-between">
             <router-link to="/Map"><li class="text-xl pr-5">map</li></router-link>
